@@ -31,6 +31,16 @@ const Nav = () => {
             <button type='button' onClick={signOut} className='outline_btn'>
               Sing Out{' '}
             </button>
+
+            <Link href='/profile'>
+              <Image
+                src='/assets/images/logo.svg'
+                width={37}
+                height={37}
+                className='rounded-full'
+                alt='profile' 
+              ></Image>
+            </Link>
           </div>
         ) : (
           <></>
